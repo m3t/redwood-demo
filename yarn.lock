@@ -96,6 +96,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@azure/msal-browser@npm:^2.32.1":
+  version: 2.32.1
+  resolution: "@azure/msal-browser@npm:2.32.1"
+  dependencies:
+    "@azure/msal-common": ^9.0.1
+  checksum: a4698c7e63e54d51ae7cdd3a138f9c7ddfc37d2a384aa48136e8490a0d2b327c8317c73e9fd8cebaaeee677c0c1a6aea52b51cc5c363cd20fcf7534f6fc847d4
+  languageName: node
+  linkType: hard
+
+"@azure/msal-common@npm:^9.0.1":
+  version: 9.0.1
+  resolution: "@azure/msal-common@npm:9.0.1"
+  checksum: 0d18984fcf2843c6642f447b1c69b90c9203e23466cdeaf4936e851fee95bd991de9b9d9333e2f801edeffb3ee371a977398c0c0bb7857d15eb76bec62436aa4
+  languageName: node
+  linkType: hard
+
 "@babel/cli@npm:7.19.3":
   version: 7.19.3
   resolution: "@babel/cli@npm:7.19.3"
@@ -23351,6 +23367,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:web"
   dependencies:
+    "@azure/msal-browser": ^2.32.1
+    "@redwoodjs/auth": 3.6.1
     "@redwoodjs/forms": 3.6.1
     "@redwoodjs/router": 3.6.1
     "@redwoodjs/web": 3.6.1

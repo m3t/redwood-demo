@@ -13,6 +13,8 @@
     ]
   },
   "dependencies": {
+    "@azure/msal-browser": "^2.32.1",
+    "@redwoodjs/auth": "3.6.1",
     "@redwoodjs/forms": "3.6.1",
     "@redwoodjs/router": "3.6.1",
     "@redwoodjs/web": "3.6.1",
