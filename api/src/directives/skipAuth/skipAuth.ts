@@ -2,6 +2,8 @@ import gql from 'graphql-tag'
 
 import { createValidatorDirective } from '@redwoodjs/graphql-server'
 
+import { logger } from 'src/lib/logger'
+
 export const schema = gql`
   """
   Use to skip authentication checks and allow public access.
@@ -10,6 +12,8 @@ export const schema = gql`
 `
 
 const skipAuth = createValidatorDirective(schema, () => {
+  logger.debug('Hello foobar')
+
   return
 })
 
